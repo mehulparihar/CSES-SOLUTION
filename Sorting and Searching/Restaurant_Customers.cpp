@@ -79,7 +79,7 @@ void solution()
 	sort(store.begin(), store.end(), comp);
 	ll ans = 0;
 	ll temp = 0;
-	for (int i = 0; i <= n; i++)
+	for (int i = 0; i < n * 2; i++)
 	{
 		temp += store[i].second;
 		ans = max(ans, temp);
